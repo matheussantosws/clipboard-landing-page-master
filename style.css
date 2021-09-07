@@ -9,13 +9,134 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
-#header, .container-initial{
+/*================= Section 1 ===============*/
+
+.card1 {
+    width: 100%;
+    padding: 0 5%;
+}
+
+.backgroud {
     width: 100%;
 }
 
-#header, .container-logo{
-    width: 150%;
+.cardlogo {
+    display: flex;
+    justify-content: center;
+    /*Container para deixar a imagem reposiva 
+    - aplicando Display flex */
+}
+.logo {
+    width: 50%;
+    margin-block-start: -50%;
+}
 
+/*================= DIV Info ===============*/
+.info {
+    text-align: center;
+    margin-top: 30%;
+}
+
+h1 {
+    font-weight: 600;
+    color: var(--cor-tres);
+}
+
+.parag1 {
+    font-weight: 400;
+    color: var(--cor-quatro);
+    margin-top: 10%;
+}
+
+/*================= DIV Buttons ===============*/
+
+.btn {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn1 {
+    background-color: var(--cor-um);
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.btn2 {
+    background-color: var(--cor-dois);
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    margin-top: 5%;
+    color: white;
+    font-weight: 600;
+} 
+
+/*================= Section 2 ===============*/
+
+.info2 {
+    text-align: center;
+    margin-top: 30%;
+}
+
+.parag2 {
+    font-weight: 400;
+    color: var(--cor-quatro);
+    margin-top: 10%;
+}
+
+/*================= DIV Imagens===============*/
+
+.imgdesktop {
+    margin-top: 30%;
+}
+
+.desktop {
+    width: 100%;
+}
+
+/*================= DIV Info3 ===============*/
+
+.info3 {
+    text-align: center;
+    margin-top: 30%;
+}
+
+.parag3 {
+    font-weight: 400;
+    color: var(--cor-quatro);
+    margin-top: 10%;
+}
+
+/*================= DIV Info 4 ===============*/
+
+.info4 {
+    text-align: center;
+    margin-top: 30%;
+}
+
+.parag4 {
+    font-weight: 400;
+    color: var(--cor-quatro);
+    margin-top: 10%;
+}
+
+
+/*================= DIV Info 5 ===============*/
+
+.info5 {
+    text-align: center;
+    margin-top: 30%;
+}
+
+.parag5 {
+    font-weight: 400;
+    color: var(--cor-quatro);
+    margin-top: 10%;
 }
