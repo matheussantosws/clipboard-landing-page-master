@@ -60,6 +60,7 @@ h1 {
 }
 
 .btn1 {
+    cursor: pointer;
     background-color: var(--cor-um);
     border: none;
     border-radius: 50px;
@@ -69,6 +70,7 @@ h1 {
 }
 
 .btn2 {
+    cursor: pointer;
     background-color: var(--cor-dois);
     border: none;
     border-radius: 50px;
@@ -268,6 +270,7 @@ li {
 }
 
 .btn1 {
+    cursor: pointer;
     background-color: var(--cor-um);
     border: none;
     border-radius: 50px;
@@ -277,6 +280,7 @@ li {
 }
 
 .btn2 {
+    cursor: pointer;
     background-color: var(--cor-dois);
     border: none;
     border-radius: 50px;
