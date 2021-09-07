@@ -79,10 +79,12 @@ h1 {
 } 
 
 /*================= Section 2 ===============*/
+section.part2 {
+    margin-top: 50%;
+}
 
 .info2 {
     text-align: center;
-    margin-top: 30%;
 }
 
 .parag2 {
@@ -136,6 +138,91 @@ h1 {
 }
 
 .parag5 {
+    font-weight: 400;
+    color: var(--cor-quatro);
+    margin-top: 10%;
+}
+
+/*================= Section 3 ===============*/
+
+section.part3 {
+    margin-top: 50%;
+}
+
+/*================= DIV Info 6 ===============*/
+
+.info6 {
+    text-align: center;
+    margin-top: 30%;
+}
+
+.parag6 {
+    font-weight: 400;
+    color: var(--cor-quatro);
+    margin-top: 10%;
+}
+
+/*================= Section 4 ===============*/
+
+section.part4 {
+    margin-top: 30%;
+}
+
+.imgdesktop {
+    margin-top: 30%;
+}
+
+.desktop-device {
+    width: 100%;
+}
+
+/*================= Div info 7 ===============*/
+
+
+.info7 {
+    text-align: center;
+}
+
+.parag7 {
+    font-weight: 400;
+    color: var(--cor-quatro);
+    margin-top: 10%;
+}
+
+/*================= Div info 8 ===============*/
+
+.info8 {
+    margin-top: 30%;
+    text-align: center;
+}
+
+.parag8 {
+    font-weight: 400;
+    color: var(--cor-quatro);
+    margin-top: 10%;
+}
+
+/*================= Div info 9 ===============*/
+
+.info9 {
+    margin-top: 30%;
+    text-align: center;
+}
+
+.parag9 {
+    font-weight: 400;
+    color: var(--cor-quatro);
+    margin-top: 10%;
+}
+
+/*================= Div info 10 ===============*/
+
+.info10 {
+    margin-top: 30%;
+    text-align: center;
+}
+
+.parag10 {
     font-weight: 400;
     color: var(--cor-quatro);
     margin-top: 10%;
