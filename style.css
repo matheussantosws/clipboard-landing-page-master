@@ -227,3 +227,29 @@ section.part4 {
     color: var(--cor-quatro);
     margin-top: 10%;
 }
+
+/*================= Section 5 ===============
+
+.part5, .google . {
+
+    margin-top: 30%;
+    background-color: violet;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.logo-marcas {
+    justify-items: center;
+}
+/*
+.cardlogo {
+    display: flex;
+    justify-content: center;
+    Container para deixar a imagem reposiva 
+    - aplicando Display flex 
+}
+.logo {
+    width: 50%;
+    margin-block-start: -50%;
+}
+*/
