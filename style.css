@@ -313,6 +313,10 @@ a {
     color: var(--cor-tres);
 }
 
-
+.icons-redes-sociais {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10% 20%;
+}
 
 
