@@ -228,28 +228,91 @@ section.part4 {
     margin-top: 10%;
 }
 
-/*================= Section 5 ===============
+/*================= Section 5 ===============*/
 
-.part5, .google . {
-
+.part5 {
     margin-top: 30%;
-    background-color: violet;
-    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    padding: 8%;
+}
+
+
+/*================= Section 6 ===============*/
+
+.part6 {
+    margin-top: 50%;
+    text-align: center;
+}
+
+.parag11 {
+    font-weight: 400;
+    color: var(--cor-quatro);
+    margin-top: 10%;
+}
+
+/*================= DIV Botão IOS MAC OS ===============*/
+
+.btn {
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
 }
-.logo-marcas {
-    justify-items: center;
+
+.btn1 {
+    background-color: var(--cor-um);
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    color: white;
+    font-weight: 600;
 }
-/*
-.cardlogo {
+
+.btn2 {
+    background-color: var(--cor-dois);
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    margin-top: 5%;
+    color: white;
+    font-weight: 600;
+} 
+
+
+/*================= Footer ===============*/
+
+footer {
+    background-color:rgba(247, 247, 247, 0.945);
+}
+
+.footerlogo {
+    margin-top: 50%;
     display: flex;
     justify-content: center;
-    Container para deixar a imagem reposiva 
-    - aplicando Display flex 
+    /*Container para deixar a imagem reposiva 
+    - aplicando Display flex */
 }
-.logo {
-    width: 50%;
-    margin-block-start: -50%;
+
+img.logofooter {
+    width: 15%;
+    margin-top: 15%;
 }
-*/
+ul {
+    margin-top: 10%;
+}
+a {
+    text-decoration: none;
+    color: var(--cor-tres);
+}
+
+
+
+
