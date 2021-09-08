@@ -247,6 +247,10 @@ li {
     padding: 8%;
 }
 
+ul li a:hover {
+    color: var(--cor-um);
+}
+
 
 /*================= Section 6 ===============*/
 
@@ -322,4 +326,6 @@ a {
     justify-content: space-evenly;
     margin: 10% 20%;
 }
+
+
 
