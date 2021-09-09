@@ -326,6 +326,82 @@ a {
     justify-content: space-evenly;
     margin: 10% 20%;
 }
+/* colocar o botão hover
+img .icon-color:hover {
+    color: var(--cor-um);
+}
+*/
 
+/*================= Medias Queries - Desktop ===============*/
+@media (min-width: 1024px) {
+    
+    .backgroud {
+        width: 100%;
+    }
+    .card1 {
+        padding: 0;
+    }
+    .cardlogo {
+        width: 40%;
+        margin-top: -70%;
+        margin-left: 29%;
+    }
+    .info {
+        width:55%;
+        margin-left: 22%;
+        margin-top: 10%;
+    }
+    .parag1 {
+        margin-top: 4%;
+    }
+    .btn {
+        width: 50%;
+        height: 450px;
+        display: inline;
+        margin-left: 36%;
+    }
+    .info2 {
+        width:55%;
+        margin-left: 22%;
+        margin-top: -35%;
+    }
+    .parag2 {
+        margin-top: 4%;
+    }
+    .imgdesktop {
+        margin-top: 8%;
+        width: 50%;
+    }
+    .info3 {
+        margin-top: -35%;
+        margin-left: 25%;
+    }
+    .parag3 {
+        width: 50%;
+        text-align: left;
+        margin-left: 40%;
+        margin-top: 1%;
+    }
+    .info4 {
+        margin-top: 4%;
+        margin-left: -1%;
+    }
+    .parag4 {
+        width: 50%;
+        text-align: left;
+        margin-left: 41%;
+        margin-top: 1%;
+    }
+    .info5 {
+        margin-top: 4%;
+        margin-left: 7%;
+    }
+    .parag5 {
+        width: 50%;
+        text-align: left;
+        margin-left: 36%;
+        margin-top: 1%;
+    }
+}
 
 
